@@ -1,0 +1,12 @@
+.main-menu-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
