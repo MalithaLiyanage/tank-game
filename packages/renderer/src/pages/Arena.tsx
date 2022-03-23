@@ -1,7 +1,14 @@
+import { BackButton } from "../components";
+
 const Arena = () => {
     
     return (
         <div className="arena-container">
+            
+            <div className="back-button-wrapper">
+                <BackButton />
+            </div>
+
             <div className="header">
                 <h1>Tank Game</h1>
             </div>

@@ -1,20 +1,22 @@
 import { useState } from "react";
-import MenuButton from "../components/buttons/MenuButton";
+import { MenuButton } from "../components";
 import './styles.css';
+import { useNavigate } from "react-router-dom";
 
 const MainMenu = () => {
     const menuItems = ['Play', 'Options', 'About', 'Exit'];
+    const navigate = useNavigate();
 
     const switchPages = (title: string) => {
         switch(title) {
             case 'Play':
-                return;
+                return navigate('/play');
             case 'Options':
-                return;
+                return navigate('/options');
             case 'About': 
-                return;
+                return navigate('/about');
             case 'Exit': 
-                return;
+                return navigate('/');
         }
     }
 
