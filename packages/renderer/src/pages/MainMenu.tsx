@@ -1,5 +1,5 @@
 import { useState } from "react";
-import MenuButton from "../components/buttons/MenuButton";
+import { MenuButton } from "../components";
 import './styles.css';
 import { useNavigate } from "react-router-dom";
 
