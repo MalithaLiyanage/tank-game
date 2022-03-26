@@ -1,3 +1,4 @@
+/* MainMenu */
 .main-menu-wrapper {
     display: flex;
     flex-direction: row;
@@ -12,4 +13,15 @@
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
+}
+
+/* Arena */
+.arena-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+.score-container {
+    
 }
