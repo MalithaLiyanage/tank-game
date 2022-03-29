@@ -4,12 +4,10 @@ const Arena = () => {
     
     return (
         <div className="arena-container">
-            
-            <div className="back-button-wrapper">
-                <BackButton />
-            </div>
-
             <div className="header">
+                <div className="back-button-wrapper">
+                    <BackButton />
+                </div>
                 <h1>Tank Game</h1>
             </div>
             <div className="score-container">

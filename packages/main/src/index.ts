@@ -33,7 +33,7 @@ const createWindow = async () => {
     show: false, // Use 'ready-to-show' event to show window
     webPreferences: {
       nativeWindowOpen: true,
-      preload: join(__dirname, '../../preload/dist/index.cjs')
+      preload: join(__dirname, '../../preload/dist/index.cjs'),
     }
   })
 
