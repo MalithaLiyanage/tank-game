@@ -4,7 +4,7 @@ import './styles.css';
 import { useNavigate } from "react-router-dom";
 
 const MainMenu = () => {
-    const menuItems = ['Play', 'Options', 'About', 'Exit'];
+    const menuItems = ['Play', 'Options', 'About'];
     const navigate = useNavigate();
 
     const switchPages = (title: string) => {
@@ -16,7 +16,7 @@ const MainMenu = () => {
             case 'About': 
                 return navigate('/about');
             case 'Exit': 
-                return navigate('/');
+                return;
         }
     }
 
